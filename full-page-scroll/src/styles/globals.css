@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #fp-nav ul li:hover a.active span,
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span {
+  background-color: chartreuse;
+} */
+
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span {
+  height: 8px;
+  width: 8px;
+  background: transparent;
+  border: 1px solid #23232a;
+  transform: none !important;
+}
+#fp-nav ul li a span {
+  margin: -2px 0 0 -2px;
+  height: 8px !important;
+  width: 8px !important;
+}
+
+#fp-nav ul li a.active span {
+  border: 1px solid #23242a !important;
+  background: transparent !important;
+  height: 8px !important;
+  width: 8px !important;
+  margin: -2px 0 0 -2px !important;
+}
